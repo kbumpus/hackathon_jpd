@@ -1,6 +1,6 @@
 ra-*.html
 .rspec
-/log
+/log/*
 /tmp
 /db/*.sqlite3
 /config/credentials.yml
