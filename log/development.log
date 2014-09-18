@@ -710,3 +710,84 @@ Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 12:46:56 -0400
 Processing by RequisitionController#all as HTML
 Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 12:56:22 -0400
+Processing by RequisitionController#all as HTML
+Completed 500 Internal Server Error in 45ms
+
+REXML::ParseException (Missing end tag for 'Prop38.en' (got "Prop38")
+Line: 19
+Position: 485
+Last 80 unconsumed characters:
+):
+  app/controllers/requisition_controller.rb:177:in `all'
+
+
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 12:57:31 -0400
+Processing by RequisitionController#all as HTML
+Completed 500 Internal Server Error in 2ms
+
+REXML::ParseException (Missing end tag for 'Prop38.en' (got "Prop38")
+Line: 19
+Position: 485
+Last 80 unconsumed characters:
+):
+  app/controllers/requisition_controller.rb:177:in `all'
+
+
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/kbumpus/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 12:58:14 -0400
+Processing by RequisitionController#all as HTML
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 12:58:36 -0400
+Processing by RequisitionController#all as HTML
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 13:39:46 -0400
+Processing by RequisitionController#all as HTML
+Completed 200 OK in 57ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/requisition/all" for 127.0.0.1 at 2014-09-18 13:46:13 -0400
+Processing by RequisitionController#all as HTML
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/partner/all" for 127.0.0.1 at 2014-09-18 13:46:15 -0400
+Processing by PartnerController#all as HTML
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/partner/all" for 127.0.0.1 at 2014-09-18 13:46:46 -0400
+Processing by PartnerController#all as HTML
+Completed 200 OK in 51ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/partner/all" for 127.0.0.1 at 2014-09-18 13:47:22 -0400
+Processing by PartnerController#all as HTML
+Completed 200 OK in 46ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/partner/all" for 127.0.0.1 at 2014-09-18 13:47:56 -0400
+Processing by PartnerController#all as HTML
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/partner/all" for 127.0.0.1 at 2014-09-18 13:48:11 -0400
+Processing by PartnerController#all as HTML
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)

@@ -22,7 +22,9 @@ class RequisitionController < ApplicationController
 				<item>
 				<id>60</id>
 				<Prop37>000060</Prop37>
-				<Prop38>Test Requisition</Prop38>
+				<Prop38.en>Test Requisition</Prop38.en>
+				<Prop38.es></Prop38.es>
+				<Prop38.fr></Prop38.fr>
 				<link>
 				https://ws-teamhgs.luceosolutions.com/rest/position/60/
 				</link>
@@ -176,7 +178,11 @@ class RequisitionController < ApplicationController
 	reqs_list = Array.new
 
 	response_json["root"]["result"]["item"].each { |item| 
-		reqs_list.push({ :id => item['Prop37'].to_s, :name => item['Prop38'].to_s })
+		if item['Prop38']
+			reqs_list.push({ :id => item['Prop37'].to_s, :name => item['Prop38'].to_s })
+		else
+			reqs_list.push({ :id => item['Prop37'].to_s, :name => item['Prop38.en'].to_s })
+		end
 	}
 
 	@reqs = Hash.new

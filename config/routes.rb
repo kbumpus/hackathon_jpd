@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  
+  get 'partner/all'
   get 'requisition/all'
 
   get 'posting/create' => 'main#index'
 
-  get 'requisition/all' => 'requisition#all'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
