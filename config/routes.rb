@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  
+
   get 'partner/all'
   get 'requisition/all'
 
   get 'posting/create' => 'main#index'
-
 
 
   # The priority is based upon order of creation: first created -> highest priority.
