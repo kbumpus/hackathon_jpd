@@ -1,5 +1,5 @@
 class MainController < ApplicationController
   def index
-  	@greeting = 'hello world'
+  	@reqs = 'hello world'
   end
 end
